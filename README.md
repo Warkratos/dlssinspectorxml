@@ -1,14 +1,3 @@
-# NVIDIA Profile Inspector XML
-
-XML com funcionalidades extras para o Profile Inspector como a Sobreposição do DLSS, que te dá liberdade para testar forçar em qualquer jogo não validado pela NVIDIA.
-
-Use o registro DLSS Overlay Toggle, para confirmar que a versão do DLSS, Preset e Resolução foram aplicadas corretamente.
-
-Baixe a última versão do XML [aqui](https://github.com/renannmp/dlssinspectorxml/releases/latest)
-
-O NVIDIA Profile Inspector pode ser baixado [aqui](https://github.com/Orbmu2k/nvidiaProfileInspector/releases)
-
-
 ## Sobreposição de DLSS pelo Profile Inspector
 As funcionalidades adicionadas ao NVIDIA App podem ser forçadas em qualquer jogo e até mesmo de forma global pelo Inspector usando esse XML, abaixo uma breve explicação de cada item da seção "DLSS Overrides".
 
