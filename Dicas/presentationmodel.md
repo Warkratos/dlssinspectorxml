@@ -50,8 +50,8 @@ A informação "Present Mode" vai aparecer informando o modelo da janela do jogo
 O jogo pode ficar em "Hardware: Independent Flip" sem o MPO, porém ao usar overlays, o jogo pode despencar para o modo com mais latência, e o MPO ainda se quebra com algumas limitações técnicas, a minha recomendação é sempre deixar o MPO ligado (se for desligar o MPO, inspecione se o jogo está no modelo Independent Flip, não use Overlays do Discord, etc), para que tenha muito mais chances da janela ser feita na composição "Hardware Composed: Independent Flip" e "Otimizações para jogos em janela" **SEMPRE** ativado.<br/>
 Como regra geral:<br/>
 **DX12** → sempre usa Flip model, mas pode usar modo de apresentação Composed Flip (Alta Latência) se as otimizações de DirectFlip estiverem desativadas e MPO quebrado.<br/>
-**DX11/10 em janela sem bordas, sem overlay** → provavelmente Flip, se as condições de DirectFlip e MPO estiverem ativadas (Windows 11 22H2+), no modo "Tela Cheia" ele usará o modo Flip correto se "otimizações para jogos em janela" estiver ativado.<br/>
+**DX11/10 em janela sem bordas, sem overlay** → provavelmente Flip se as condições de DirectFlip e MPO estiverem ativadas (Windows 11 22H2+). No modo "Tela Cheia" ele usará o modo Flip correto se "otimizações para jogos em janela" estiver ativado.<br/>
 **DX11/10 com overlay de terceiros (NVIDIA App, Discord, etc.)** → pode cair para BitBlt/Composed com otimizações de janela desativados e/ou MPO<br/>
 **Jogos mais antigos (DX9, OpenGL)** → quase sempre BitBlt
 <br/><br/><br/><br/><br/>
-Fonte Principal: [Special-K](https://www.special-k.info/)
+Fontes: [Special-K](https://www.special-k.info/) | [Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/dxgi-flip-model)
